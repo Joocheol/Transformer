@@ -14,14 +14,7 @@ class VoiceoverDemo(VoiceoverScene):
         )
 
         demo_code = Code(
-            code='''tracker = self.add_voiceover_text(
-    """AI generated voices have become realistic
-        enough for use in most content. Using neural
-        text-to-speech frees you from the painstaking
-        process of recording and manually syncing
-        audio to your video."""
-)
-self.play(Write(demo_code), run_time=tracker.duration)''',
+            file_name="Shakespeare.py",
             insert_line_no=False,
             background="window",
             language="python",
