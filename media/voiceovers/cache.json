@@ -12270,5 +12270,515 @@
     ],
     "original_audio": "as-you-can-see-manim-started-playing-this-d73531f9.mp3",
     "final_audio": "as-you-can-see-manim-started-playing-this-d73531f9.mp3"
+  },
+  {
+    "input_text": "AI generated voices have become realistic enough for use in most content. Using neural text-to-speech frees you from the painstaking process of recording and manually syncing audio to your video.",
+    "input_data": {
+      "input_text": "AI generated voices have become realistic enough for use in most content. Using neural text-to-speech frees you from the painstaking process of recording and manually syncing audio to your video.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">AI generated voices have become realistic enough for use in most content. Using neural text-to-speech frees you from the painstaking process of recording and manually syncing audio to your video.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">AI generated voices have become realistic enough for use in most content. Using neural text-to-speech frees you from the painstaking process of recording and manually syncing audio to your video.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 475,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "AI",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5375000,
+        "duration_milliseconds": 575,
+        "text_offset": 3,
+        "word_length": 9,
+        "text": "generated",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11250000,
+        "duration_milliseconds": 537,
+        "text_offset": 13,
+        "word_length": 6,
+        "text": "voices",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17250000,
+        "duration_milliseconds": 137,
+        "text_offset": 20,
+        "word_length": 4,
+        "text": "have",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 375,
+        "text_offset": 25,
+        "word_length": 6,
+        "text": "become",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22625000,
+        "duration_milliseconds": 600,
+        "text_offset": 32,
+        "word_length": 9,
+        "text": "realistic",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28750000,
+        "duration_milliseconds": 262,
+        "text_offset": 42,
+        "word_length": 6,
+        "text": "enough",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31500000,
+        "duration_milliseconds": 137,
+        "text_offset": 49,
+        "word_length": 3,
+        "text": "for",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33000000,
+        "duration_milliseconds": 350,
+        "text_offset": 53,
+        "word_length": 3,
+        "text": "use",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37125000,
+        "duration_milliseconds": 125,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "in",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38500000,
+        "duration_milliseconds": 325,
+        "text_offset": 60,
+        "word_length": 4,
+        "text": "most",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41875000,
+        "duration_milliseconds": 625,
+        "text_offset": 65,
+        "word_length": 7,
+        "text": "content",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 48250000,
+        "duration_milliseconds": 100,
+        "text_offset": 72,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 56750000,
+        "duration_milliseconds": 387,
+        "text_offset": 74,
+        "word_length": 5,
+        "text": "Using",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60750000,
+        "duration_milliseconds": 275,
+        "text_offset": 80,
+        "word_length": 6,
+        "text": "neural",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 63625000,
+        "duration_milliseconds": 862,
+        "text_offset": 87,
+        "word_length": 14,
+        "text": "text-to-speech",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 73000000,
+        "duration_milliseconds": 312,
+        "text_offset": 102,
+        "word_length": 5,
+        "text": "frees",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 76250000,
+        "duration_milliseconds": 137,
+        "text_offset": 108,
+        "word_length": 3,
+        "text": "you",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 77750000,
+        "duration_milliseconds": 137,
+        "text_offset": 112,
+        "word_length": 4,
+        "text": "from",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 79250000,
+        "duration_milliseconds": 75,
+        "text_offset": 117,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 80125000,
+        "duration_milliseconds": 750,
+        "text_offset": 121,
+        "word_length": 11,
+        "text": "painstaking",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 87750000,
+        "duration_milliseconds": 512,
+        "text_offset": 133,
+        "word_length": 7,
+        "text": "process",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 93000000,
+        "duration_milliseconds": 100,
+        "text_offset": 141,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 94125000,
+        "duration_milliseconds": 600,
+        "text_offset": 144,
+        "word_length": 9,
+        "text": "recording",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 101000000,
+        "duration_milliseconds": 137,
+        "text_offset": 154,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 102500000,
+        "duration_milliseconds": 487,
+        "text_offset": 158,
+        "word_length": 8,
+        "text": "manually",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 107500000,
+        "duration_milliseconds": 450,
+        "text_offset": 167,
+        "word_length": 7,
+        "text": "syncing",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 112125000,
+        "duration_milliseconds": 450,
+        "text_offset": 175,
+        "word_length": 5,
+        "text": "audio",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 116750000,
+        "duration_milliseconds": 125,
+        "text_offset": 181,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 118125000,
+        "duration_milliseconds": 150,
+        "text_offset": 184,
+        "word_length": 4,
+        "text": "your",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 119750000,
+        "duration_milliseconds": 500,
+        "text_offset": 189,
+        "word_length": 5,
+        "text": "video",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 124875000,
+        "duration_milliseconds": 100,
+        "text_offset": 194,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "ai-generated-voices-have-become-realistic-enough-bab613f4.mp3",
+    "final_audio": "ai-generated-voices-have-become-realistic-enough-bab613f4.mp3"
+  },
+  {
+    "input_text": "As you can see, Manim started playing this voiceover, right as the code object started to be drawn. Let's see some more examples.",
+    "input_data": {
+      "input_text": "As you can see, Manim started playing this voiceover, right as the code object started to be drawn. Let's see some more examples.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">As you can see, Manim started playing this voiceover, right as the code object started to be drawn. Let's see some more examples.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">As you can see, Manim started playing this voiceover, right as the code object started to be drawn. Let's see some more examples.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 262,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "As",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3250000,
+        "duration_milliseconds": 125,
+        "text_offset": 3,
+        "word_length": 3,
+        "text": "you",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4625000,
+        "duration_milliseconds": 187,
+        "text_offset": 7,
+        "word_length": 3,
+        "text": "can",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6625000,
+        "duration_milliseconds": 362,
+        "text_offset": 11,
+        "word_length": 3,
+        "text": "see",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11250000,
+        "duration_milliseconds": 87,
+        "text_offset": 14,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 12250000,
+        "duration_milliseconds": 337,
+        "text_offset": 16,
+        "word_length": 5,
+        "text": "Manim",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15750000,
+        "duration_milliseconds": 400,
+        "text_offset": 22,
+        "word_length": 7,
+        "text": "started",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19875000,
+        "duration_milliseconds": 312,
+        "text_offset": 30,
+        "word_length": 7,
+        "text": "playing",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23125000,
+        "duration_milliseconds": 187,
+        "text_offset": 38,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25125000,
+        "duration_milliseconds": 625,
+        "text_offset": 43,
+        "word_length": 9,
+        "text": "voiceover",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32375000,
+        "duration_milliseconds": 175,
+        "text_offset": 52,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 34250000,
+        "duration_milliseconds": 275,
+        "text_offset": 54,
+        "word_length": 5,
+        "text": "right",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37125000,
+        "duration_milliseconds": 100,
+        "text_offset": 60,
+        "word_length": 2,
+        "text": "as",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38250000,
+        "duration_milliseconds": 87,
+        "text_offset": 63,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39250000,
+        "duration_milliseconds": 312,
+        "text_offset": 67,
+        "word_length": 4,
+        "text": "code",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42500000,
+        "duration_milliseconds": 437,
+        "text_offset": 72,
+        "word_length": 6,
+        "text": "object",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 387,
+        "text_offset": 79,
+        "word_length": 7,
+        "text": "started",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51500000,
+        "duration_milliseconds": 75,
+        "text_offset": 87,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 52375000,
+        "duration_milliseconds": 125,
+        "text_offset": 90,
+        "word_length": 2,
+        "text": "be",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53750000,
+        "duration_milliseconds": 500,
+        "text_offset": 93,
+        "word_length": 5,
+        "text": "drawn",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 58875000,
+        "duration_milliseconds": 112,
+        "text_offset": 98,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 67500000,
+        "duration_milliseconds": 312,
+        "text_offset": 100,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 70750000,
+        "duration_milliseconds": 137,
+        "text_offset": 106,
+        "word_length": 3,
+        "text": "see",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 72250000,
+        "duration_milliseconds": 137,
+        "text_offset": 110,
+        "word_length": 4,
+        "text": "some",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 73750000,
+        "duration_milliseconds": 212,
+        "text_offset": 115,
+        "word_length": 4,
+        "text": "more",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 76000000,
+        "duration_milliseconds": 762,
+        "text_offset": 120,
+        "word_length": 8,
+        "text": "examples",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 83750000,
+        "duration_milliseconds": 100,
+        "text_offset": 128,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "as-you-can-see-manim-started-playing-this-d73531f9.mp3",
+    "final_audio": "as-you-can-see-manim-started-playing-this-d73531f9.mp3"
   }
 ]
