@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:03,971
+AI generated voices have become realistic enough for use in
+
+2
+00:00:04,071 --> 00:00:08,941
+most content. Using neural text-to-speech frees you from the painstaking
+
+3
+00:00:09,041 --> 00:00:13,220
+process of recording and manually syncing audio to your video.
+
+4
+00:00:13,333 --> 00:00:17,985
+As you can see, Manim started playing this voiceover, right as the
+
+5
+00:00:18,085 --> 00:00:22,449
+code object started to be drawn. Let's see some more examples.
+
