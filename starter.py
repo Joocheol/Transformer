@@ -8,8 +8,8 @@ class VoiceoverDemo(VoiceoverScene):
         # Initialize speech synthesis using Azure's TTS API
         self.set_speech_service(
             AzureService(
-                voice="en-US-AriaNeural",
-                #voice ="ko-KR-InJoonNeural",
+                #voice="en-US-AriaNeural",
+                voice ="ko-KR-InJoonNeural",
                 style="newscast-casual",  # global_speed=1.15
             )
         )
@@ -22,7 +22,7 @@ class VoiceoverDemo(VoiceoverScene):
         ).rescale_to_fit(12, 0)
 
         voice = self.add_voiceover_text(
-            """English"""
+            """한국어로 이야기하겠습니다."""
         )
         self.play(FadeIn(code.background_mobject), run_time=voice.duration)
 

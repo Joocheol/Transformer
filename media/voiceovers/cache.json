@@ -12780,5 +12780,126 @@
     ],
     "original_audio": "as-you-can-see-manim-started-playing-this-d73531f9.mp3",
     "final_audio": "as-you-can-see-manim-started-playing-this-d73531f9.mp3"
+  },
+  {
+    "input_text": "English",
+    "input_data": {
+      "input_text": "English",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">English</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">English</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 725,
+        "text_offset": 0,
+        "word_length": 7,
+        "text": "English",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "english-31a716d6.mp3",
+    "final_audio": "english-31a716d6.mp3"
+  },
+  {
+    "input_text": "\ud55c\uad6d\uc5b4\ub85c \uc774\uc57c\uae30 \ud558\uaca0\uc2b5\ub2c8\ub2e4.",
+    "input_data": {
+      "input_text": "\ud55c\uad6d\uc5b4\ub85c \uc774\uc57c\uae30 \ud558\uaca0\uc2b5\ub2c8\ub2e4.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ko-KR-InJoonNeural\">\n        <mstts:express-as style=\"newscast-casual\">\ud55c\uad6d\uc5b4\ub85c \uc774\uc57c\uae30 \ud558\uaca0\uc2b5\ub2c8\ub2e4.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ko-KR-InJoonNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ko-KR-InJoonNeural\">\n        <mstts:express-as style=\"newscast-casual\">\ud55c\uad6d\uc5b4\ub85c \uc774\uc57c\uae30 \ud558\uaca0\uc2b5\ub2c8\ub2e4.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 762,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\ud55c\uad6d\uc5b4\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8125000,
+        "duration_milliseconds": 412,
+        "text_offset": 5,
+        "word_length": 3,
+        "text": "\uc774\uc57c\uae30",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 725,
+        "text_offset": 9,
+        "word_length": 5,
+        "text": "\ud558\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22625000,
+        "duration_milliseconds": 0,
+        "text_offset": 14,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "hangugeoro-iyagi-hagessseubnida-67b420ba.mp3",
+    "final_audio": "hangugeoro-iyagi-hagessseubnida-67b420ba.mp3"
+  },
+  {
+    "input_text": "\ud55c\uad6d\uc5b4\ub85c \uc774\uc57c\uae30\ud558\uaca0\uc2b5\ub2c8\ub2e4.",
+    "input_data": {
+      "input_text": "\ud55c\uad6d\uc5b4\ub85c \uc774\uc57c\uae30\ud558\uaca0\uc2b5\ub2c8\ub2e4.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ko-KR-InJoonNeural\">\n        <mstts:express-as style=\"newscast-casual\">\ud55c\uad6d\uc5b4\ub85c \uc774\uc57c\uae30\ud558\uaca0\uc2b5\ub2c8\ub2e4.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ko-KR-InJoonNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ko-KR-InJoonNeural\">\n        <mstts:express-as style=\"newscast-casual\">\ud55c\uad6d\uc5b4\ub85c \uc774\uc57c\uae30\ud558\uaca0\uc2b5\ub2c8\ub2e4.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 762,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\ud55c\uad6d\uc5b4\ub85c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8125000,
+        "duration_milliseconds": 87,
+        "text_offset": 5,
+        "word_length": 8,
+        "text": "\uc774\uc57c\uae30\ud558\uaca0\uc2b5\ub2c8\ub2e4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21875000,
+        "duration_milliseconds": 0,
+        "text_offset": 13,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "hangugeoro-iyagihagessseubnida-beca04bb.mp3",
+    "final_audio": "hangugeoro-iyagihagessseubnida-beca04bb.mp3"
   }
 ]
