@@ -9,6 +9,7 @@ class VoiceoverDemo(VoiceoverScene):
         self.set_speech_service(
             AzureService(
                 voice="en-US-AriaNeural",
+                #voice ="ko-KR-InJoonNeural",
                 style="newscast-casual",  # global_speed=1.15
             )
         )
@@ -21,19 +22,15 @@ class VoiceoverDemo(VoiceoverScene):
         ).rescale_to_fit(12, 0)
 
         voice = self.add_voiceover_text(
-            """AI generated voices have become realistic
-                enough for use in most content. Using neural
-                text-to-speech frees you from the painstaking
-                process of recording and manually syncing
-                audio to your video."""
+            """English"""
         )
         self.play(FadeIn(code.background_mobject), run_time=voice.duration)
 
-        with self.voiceover(
-            text="""As you can see, Manim started playing this voiceover,
-                right as the code object started to be drawn.
-                Let's see some more examples."""
-        ):
-            pass
+        # with self.voiceover(
+        #     text="""As you can see, Manim started playing this voiceover,
+        #         right as the code object started to be drawn.
+        #         Let's see some more examples."""
+        # ):
+        #     pass
 
         
