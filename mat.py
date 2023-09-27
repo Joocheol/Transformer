@@ -12,9 +12,10 @@ class VoiceoverDemo(VoiceoverScene):
             )
         )
 
-        chars = Text("attention")
-        chars_1 = Text("attentio?")
-        # rect = Rectangle(color=YELLOW).set_fill(YELLOW, opacity=1.0).next_to(chars)
+        m = setup_3()
+
+        
+
         
 
         with self.voiceover(
@@ -25,21 +26,37 @@ class VoiceoverDemo(VoiceoverScene):
             <lang xml:lang="ko-KR">인공지능은 어떻게 다음 글자를 알 수가 있을까요?</lang>"""
         ) as tracker:
             
-            self.play(
-                Write(chars), run_time=tracker.time_until_bookmark("A", limit=1)
-            )
-            self.wait_until_bookmark("A")
+            self.play(Write(m[0]))
 
-            self.play(
-                FadeOut(chars[-1]), run_time=tracker.time_until_bookmark("B", limit=1)
-            )
-            self.wait_until_bookmark("B")
-            
-            self.play(
-                ReplacementTransform(chars[-1], chars_1[-1]), run_time=tracker.time_until_bookmark("C", limit=1)
-            )
-            self.wait_until_bookmark("C")
+            self.wait(10)
 
-            for i in range(len(chars)):
-                self.play(Transform(chars[i], chars[-1]), run_time=0.5)
+
+def setup_3():
+    vg_1 = VGroup()
+    vg_2 = VGroup()
+    vg_3 = VGroup()
+
+    box = Rectangle(height=0.4, width=1.2)
+
+    text = "[START] je suis etudiant I am a student [END]".split()
+    text = [Tex(i).scale(0.6) for i in text]
+
+    for i in [0,1,2,3,-1]:
+        temp = VGroup(text[i].copy(), box.copy())
+        vg_1.add(temp)
+
+    for i in [0,4,5,6,7]:
+        temp = VGroup(text[i].copy(), box.copy())
+        vg_2.add(temp)
+
+    for i in [4,5,6,7,8]:
+        temp = VGroup(text[i].copy(), box.copy())
+        vg_3.add(temp)
+
+    vg_1.arrange(DOWN, buff=0).rotate(PI/2)
+    vg_2.arrange(DOWN, buff=0).rotate(PI/2)
+    vg_3.arrange(DOWN, buff=0).rotate(PI/2)
+
+    return vg_1, vg_2, vg_3
+
             
