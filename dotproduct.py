@@ -1,5 +1,29 @@
 from manim import *
 
+class Cosine(Scene):
+    def construct(self):
+        plane = NumberPlane()
+        a = np.array([2,3,0])
+        b = np.array([3,1,0])
+
+        aa = Vector([2,3,0])
+        bb = Vector([3,1,0])
+
+        tmp = np.linalg.norm(b)
+        bb_t = Vector([tmp,0,0])
+
+        
+
+        self.add(plane)
+        self.play(Write(aa))
+        self.play(Write(bb))
+
+        self.play(Transform(bb.copy(), bb_t))
+
+        
+        
+        self.wait()
+
 
 class DotProduct(Scene):
     def construct(self):
