@@ -17,7 +17,7 @@ class DotProduct(Scene):
         number = DecimalNumber(0, color=RED).to_corner().add_updater(lambda m: self.my_num(m, line_1))
 
         self.add(line_0, line_1, angle, proj, number)
-        self.play(vt.animate.set_value(10), run_time=5, rate_func=linear)
+        self.play(vt.animate.set_value(10), run_time=20, rate_func=linear)
 
     def my_fun(self, mob, vt):
 
