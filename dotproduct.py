@@ -2,6 +2,8 @@ from manim import *
 
 class Cosine(Scene):
     def construct(self):
+
+        ax = Axes()
         
         a = np.array([2,3,0])
         b = np.array([3,1,0])
@@ -9,21 +11,30 @@ class Cosine(Scene):
         aa = Vector(a)
         bb = Vector(b)
 
+        angle_a = Angle(aa, ax.x_axis, other_angle=True, radius=0.5)
+        angle_a.add_updater(lambda m: m.become(Angle(aa, ax.x_axis, other_angle=True, radius=0.5)))
+
+        angle_b = Angle(bb, ax.x_axis, other_angle=True, radius=0.7)
+        angle_b.add_updater(lambda m: m.become(Angle(bb, ax.x_axis, other_angle=True, radius=0.7)))
+
         r_a = np.linalg.norm(a)
         r_b = np.linalg.norm(b)
 
         theta_a = np.arccos(a[0]/r_a)
         theta_b = np.arccos(b[0]/r_b)
 
-        print(r_a, r_b, theta_a, theta_b)
+
+
+        self.add(ax)       
 
         self.play(Write(aa))
+        self.play(Write(angle_a))
+        
         self.play(Write(bb))
+        self.play(Write(angle_b))
 
-        #self.play(Transform(bb.copy(), bb_t))
-
-        self.play(bb.animate.rotate(-0.32, about_point=bb.get_start()))
-        self.play(aa.animate.rotate(-0.98, about_point=aa.get_start()))
+        self.play(bb.animate.rotate(-theta_b, about_point=bb.get_start()))
+        self.play(aa.animate.rotate(-theta_a, about_point=aa.get_start()))
 
         
         
