@@ -2,23 +2,28 @@ from manim import *
 
 class Cosine(Scene):
     def construct(self):
-        plane = NumberPlane()
+        
         a = np.array([2,3,0])
         b = np.array([3,1,0])
 
-        aa = Vector([2,3,0])
-        bb = Vector([3,1,0])
+        aa = Vector(a)
+        bb = Vector(b)
 
-        tmp = np.linalg.norm(b)
-        bb_t = Vector([tmp,0,0])
+        r_a = np.linalg.norm(a)
+        r_b = np.linalg.norm(b)
 
-        
+        theta_a = np.arccos(a[0]/r_a)
+        theta_b = np.arccos(b[0]/r_b)
 
-        self.add(plane)
+        print(r_a, r_b, theta_a, theta_b)
+
         self.play(Write(aa))
         self.play(Write(bb))
 
-        self.play(Transform(bb.copy(), bb_t))
+        #self.play(Transform(bb.copy(), bb_t))
+
+        self.play(bb.animate.rotate(-0.32, about_point=bb.get_start()))
+        self.play(aa.animate.rotate(-0.98, about_point=aa.get_start()))
 
         
         
