@@ -1,5 +1,58 @@
 from manim import *
 
+class Start(Scene):
+    def construct(self):
+        
+        ax = Axes(axis_config={"include_ticks":False})
+
+        a = np.array([2,2,0])
+        b = np.array([4,-1,0])
+        t_a = MathTex(r"a")
+        t_b = MathTex(r"b")
+
+        f_1 = MathTex(r"\| a \| = \sqrt{x_a^2 + y_a^2}")
+        f_2 = MathTex(r"\| b \| = \sqrt{x_b^2 + y_b^2}")
+        f_3 = MathTex(r"a \cdot b = x_a x_b + y_a y_b")
+        f_4 = MathTex(r"a \cdot b = \|a\|\|b\| \cos \theta")
+
+        x_a = np.array([2,0,0])
+        y_a = np.array([0,2,0])
+        x_b = np.array([4,0,0])
+        y_b = np.array([0,-1,0])
+
+        aa = Vector(a)
+        bb = Vector(b)
+
+        line_1 = DashedLine(aa.get_end(), x_a )
+        line_2 = DashedLine(aa.get_end(), y_a )
+        line_3 = DashedLine(bb.get_end(), x_b )
+        line_4 = DashedLine(bb.get_end(), y_b )
+
+        label_a = aa.coordinate_label()
+        label_b = bb.coordinate_label()
+
+        angle = Angle(aa, bb, other_angle=True, radius=1)
+        # angle.add_updater(lambda m, dt: m.become(Angle(ax.x_axis, aa)))
+        # angle.update()
+
+        self.add(ax, aa, bb)
+
+        self.add(t_a.next_to(aa.get_center(), UL, buff=SMALL_BUFF))
+        self.add(t_b.next_to(bb.get_center(), DL, buff=SMALL_BUFF))
+
+        self.play(Write(label_a), Write(label_b))
+        self.add(line_1, line_2, line_3, line_4)
+
+        self.play(Write(f_1.to_edge(UL, buff=LARGE_BUFF)))
+        self.play(Write(f_2.next_to(f_1, DOWN)))
+        self.play(Write(f_3.next_to(f_2, DOWN)))
+
+        self.play(Write(f_4.to_edge(DL, buff=LARGE_BUFF)))
+
+        self.play(Write(angle))
+
+        self.wait(10)
+
 class Cosine(Scene):
     def construct(self):
 

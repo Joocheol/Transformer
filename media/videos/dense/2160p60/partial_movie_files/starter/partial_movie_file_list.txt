@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/joocheolkim/ManimProject/Transformer/media/videos/dense/2160p60/partial_movie_files/Starter/139003253_3315967912_631829896.mp4'
+file 'file:/Users/joocheolkim/ManimProject/Transformer/media/videos/dense/2160p60/partial_movie_files/Starter/139003253_329969645_3547520947.mp4'
+file 'file:/Users/joocheolkim/ManimProject/Transformer/media/videos/dense/2160p60/partial_movie_files/Starter/139003253_4064641188_3828168139.mp4'
+file 'file:/Users/joocheolkim/ManimProject/Transformer/media/videos/dense/2160p60/partial_movie_files/Starter/3120117191_3315967912_1078617788.mp4'
